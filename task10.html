@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: yellow;
+            /* Set the background color to yellow */
+        }
+
+        /* Sidebar Navigation */
+        .sidenav {
+            height: 100%;
+            width: 150px;
+            /* Adjust the width of the sidebar */
+            position: fixed;
+            top: 10px;
+            /* Adjust the top position */
+            left: 10px;
+            /* Adjust the left position */
+            background-color: yellow;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 30px;
+        }
+
+        .sidenav a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(199, 26, 26);
+            display: block;
+            transition: 0.3s;
+            border-radius: 5px;
+            /* Add rounded edges */
+            margin-bottom: 10px;
+            /* Add spacing between buttons */
+            border: 1px solid rgb(199, 26, 26);
+            /* Add a border around each button */
+            background-color: rgb(255, 255, 255);
+            /* Set the button background color */
+        }
+
+        .sidenav a:hover {
+            background-color: rgb(199, 26, 26);
+            /* Change the background color on hover */
+            color: white;
+            /* Change the text color on hover */
+        }
+
+        /* Content Area */
+        .content {
+            margin-left: 180px;
+            /* Adjust margin to push content to the right of the sidebar */
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidenav">
+        <a href="#">HomePage</a>
+        <a href="#">Musing</a>
+        <a href="#">My Town</a>
+        <a href="#">Links</a>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content">
+        <h1>My First Styled Page</h1>
+        <h4>Welcome to my styled page!</h4>
+        <h4>It lacks images, but still it has style. And it has links, even if they don't go anywhere...</h4>
+        <h4>There should be more here, but I don't know what yet.</h4>
+        <hr />
+        <p><em>Made 6th September by Myself</em></p>
+
+    </div>
+</body>
+
+</html>

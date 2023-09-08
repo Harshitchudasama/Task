@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .horizontal-nav a:hover {
+            background-color: #555;
+        }
+
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 60px;
+            /* Adjust the top position to leave space for the horizontal bar */
+            height: 100%;
+            overflow: auto;
+        }
+
+        .vertical-nav a {
+            display: block;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        .vertical-nav a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Horizontal Navigation Bar -->
+    <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+
+    <!-- Vertical Navigation Bar (below the horizontal bar) -->
+    <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+</body>
+
+</html>

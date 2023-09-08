@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            border: 2px solid white;
+            padding: 1px;
+            text-align: left;
+            border-radius: 10px;
+        }
+
+        th {
+            background-color: rgb(135, 235, 180);
+        }
+
+        td {
+            background-color: rgb(135, 235, 180);
+        }
+
+        caption {
+            text-align: left;
+            font-weight: bold;
+        }
+
+        /* New table styles */
+        #empty-table {
+            margin-top: 20px;
+            border-collapse: separate;
+            /* Separate the cell borders */
+            border-spacing: 10px;
+            /* Add cell spacing of 10px */
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #empty-table th,
+        #empty-table td {
+            border: 2px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        #empty-table th:nth-child(3),
+        #empty-table td:nth-child(6) {
+            border-radius: 50%;
+        }
+
+        #empty-table td:nth-child(3) {
+            border-radius: 50%;
+        }
+
+        #empty-table td:nth-child(7) {
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border: 2px solid black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <caption>Details</caption>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <!-- New 3x3 empty table with increased cell spacing -->
+    <table id="empty-table">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
